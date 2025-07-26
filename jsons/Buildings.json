@@ -33,7 +33,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+25]% Production when constructing [Mounted] units [in this city]",
 			"[-25]% Culture cost of natural border growth [in this city]",
-			"[-25]% Gold cost of acquiring tiles [in this city]"
+			"[-25]% Gold cost of acquiring tiles [in this city]",
 			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
 			"[+1 Production] from [Sheep] tiles [in this city]"],
@@ -140,7 +140,7 @@
 		"name": "Byzantine Walls",
 		"replaces": "Walls",
 		"uniqueTo": "Byzantium",
-		"faith": 2
+		"faith": 2,
 		"cost": 65,
 		"cityStrength": 8,
 		"cityHealth": 50,
@@ -158,7 +158,7 @@
 		"requiredBuilding": "Monument",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured", "New [Mounted] units start with [15] Experience [in this city]"],
+		"uniques": ["Destroyed when the city is captured", "New [Mounted] units start with [15] XP [in this city]"],
 		"requiredTech": "Drama and Poetry"
 	},
 {
@@ -234,7 +234,7 @@
 		"cityStrength": 9,
 		"cityHealth": 25,
 		"requiredBuilding": "Castle",
-		"uniques": ["Destroyed when the city is captured","New [Siege] units start with [5] Experience [in this city]"],
+		"uniques": ["Destroyed when the city is captured","New [Siege] units start with [5] XP [in this city]"],
 		"requiredTech": "Metallurgy"
 	},
 	{
@@ -563,7 +563,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Bank",
-		"uniques": ["Comment [Unlocked at Flight]","[+2 Gold] from every specialist [in this city]"]
+		"uniques": ["Comment [Unlocked at Flight]","[+2 Gold] from every specialist [in this city]"],
 		"requiredTech": "Flight"
 	},
 {
@@ -614,7 +614,7 @@
 		"happiness": 1,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["[+2 Culture, +1 Happiness] <after adopting [Military Caste]>","New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["[+2 Culture, +1 Happiness] <after adopting [Military Caste]>","New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel"
 	},
 	{
@@ -1076,7 +1076,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["[+1 Production] from [Jungle] tiles [in this city]","New [Military] units start with [15] Experience [in this city]","All newly-trained [Land] units [in this city] receive the [Woodsman] promotion","Destroyed when the city is captured"],
+		"uniques": ["[+1 Production] from [Jungle] tiles [in this city]","New [Military] units start with [15] XP [in this city]","All newly-trained [Land] units [in this city] receive the [Woodsman] promotion","Destroyed when the city is captured"],
 		"requiredTech": "Steel"
 	},
 {
@@ -1156,7 +1156,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured","All newly-trained [relevant] units [in this city] receive the [Accuracy I] promotion"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured","All newly-trained [relevant] units [in this city] receive the [Accuracy I] promotion"],
 		"requiredTech": "Steel"
 	},
 	{
@@ -1260,5 +1260,5 @@
 			"[+1 Food] [in all cities] <in cities connected to the capital>",
 			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Civil Service"
-	},
+	}
 ]
